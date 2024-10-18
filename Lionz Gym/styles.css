@@ -1,0 +1,187 @@
+.body {
+    background-color: #333;
+    color: white; 
+    margin: 0;
+    box-sizing: border-box;
+}
+.gym-header{
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    
+}
+.header img {
+    border-radius: 100%;
+    max-height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+ nav {
+ Margin-right: 10px;
+  
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-right: 5px;
+}
+nav ul li {
+    margin-left: 1em;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* glow text effect*/
+    font-size: 20px;
+}
+/*lead section*/
+.lead {
+}
+.lead p {
+    font-size: 80px;
+    margin-bottom: -20px;
+}
+.lead img {
+    max-height: 300px;
+    width: 30%;
+}
+.button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.button:hover {
+    background-color: #ffa90a; /* Slightly darker orange */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.about h2 {
+    font-size: 80px;
+}
+/*Classes*/
+.classes-header h2 {
+    font-size: 80px;
+    margin-bottom: -20;
+    font-family: 'Times New Roman', Times, serif;
+}
+.classes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* This will ensure the cards wrap to the next line if there's not enough space */
+    margin-left: auto;
+    margin-right: auto; /* Adjusted */
+    margin-left: 190px;
+}
+.w3-card-4 {
+    padding-left: 0; /* Adjusted */
+    padding-right: 0; /* Adjusted */
+}
+.w3-card-4 img {
+    height: 70px;
+    width: 70px;
+}
+/*meet-our-trainers*/
+.meet-our-trainers {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+}
+.trainers-header h2 {
+    font-size: 80px;
+}
+.trainers-card {
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 50px;
+}
+.trainers-card img {
+    width: 100%;
+}
+.trainers-text {
+    border-top: 1px solid black;
+    margin-top: auto;
+    background-color: rgb(62, 62, 62);
+    padding: 10px;
+}
+
+/* Ccontact Form */
+.contact-form {
+    max-width: 50%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    margin-bottom: 15px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    border-color: 1px solid black;
+    background-color: gray;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #218838;
+}
+/* Contact Footer*/
+.contact {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 20px auto;
+    border-top: 1px soli black;
+    border-bottom: 1px solid black;
+    margin-top: 60px;
+}
+.classes-header {
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+.contact p,
+.contact address p {
+    color: #666;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.contact address {
+    font-style: normal;
+    text-align: center;
+}
+.contact address p {
+    margin: 0.5em 0;
+}
